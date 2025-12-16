@@ -1,0 +1,39 @@
+19:02:14.293 Running build in Washington, D.C., USA (East) – iad1
+19:02:14.294 Build machine configuration: 2 cores, 8 GB
+19:02:14.421 Cloning github.com/bytedark/Privacy (Branch: main, Commit: bf9a584)
+19:02:14.422 Previous build caches not available.
+19:02:14.912 Cloning completed: 491.000ms
+19:02:15.450 Running "vercel build"
+19:02:15.874 Vercel CLI 50.0.1
+19:02:16.487 Installing dependencies...
+19:02:25.265 
+19:02:25.265 added 302 packages in 8s
+19:02:25.265 
+19:02:25.265 27 packages are looking for funding
+19:02:25.265   run `npm fund` for details
+19:02:25.330 Running "npm run build"
+19:02:25.439 
+19:02:25.440 > rest-express@1.0.0 build
+19:02:25.441 > tsx script/build.ts
+19:02:25.441 
+19:02:25.852 
+19:02:25.852 node:internal/modules/run_main:107
+19:02:25.853     triggerUncaughtException(
+19:02:25.853     ^
+19:02:25.853 Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/vercel/path0/script/build.ts' imported from /vercel/path0/
+19:02:25.853     at finalizeResolution (node:internal/modules/esm/resolve:274:11)
+19:02:25.853     at moduleResolve (node:internal/modules/esm/resolve:864:10)
+19:02:25.853     at defaultResolve (node:internal/modules/esm/resolve:990:11)
+19:02:25.853     at nextResolve (node:internal/modules/esm/hooks:785:28)
+19:02:25.853     at resolveBase (file:///vercel/path0/node_modules/tsx/dist/esm/index.mjs?1765922545721:2:3744)
+19:02:25.854     at resolveDirectory (file:///vercel/path0/node_modules/tsx/dist/esm/index.mjs?1765922545721:2:4243)
+19:02:25.854     at resolveTsPaths (file:///vercel/path0/node_modules/tsx/dist/esm/index.mjs?1765922545721:2:4984)
+19:02:25.854     at resolve (file:///vercel/path0/node_modules/tsx/dist/esm/index.mjs?1765922545721:2:5361)
+19:02:25.854     at nextResolve (node:internal/modules/esm/hooks:785:28)
+19:02:25.854     at AsyncLoaderHooksOnLoaderHookWorker.resolve (node:internal/modules/esm/hooks:269:30) {
+19:02:25.854   code: 'ERR_MODULE_NOT_FOUND',
+19:02:25.854   url: 'file:///vercel/path0/script/build.ts'
+19:02:25.854 }
+19:02:25.854 
+19:02:25.854 Node.js v24.12.0
+19:02:25.880 Error: Command "npm run build" exited with 1
